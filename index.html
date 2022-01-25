@@ -9,15 +9,15 @@
   </head>
   <body>
     <main>
-      <div>
-        <input type="button" value="Facebook login" />
-        <input type="button" value="Google+login" />
-        <input type="button" value="Twitter login" />
+      <div class="links">
+        <input class="fb" type="button" value="Facebook login" />
+        <input class="gm" type="button" value="Google+login" />
+        <input class="tw" type="button" value="Twitter login" />
       </div>
-      <div class="divider">OR</div>
+      <span class="divider">OR</span>
 
       <form action="">
-        <h2>Sign In with</h2>
+        <p>Sign In with</p>
         <input
           type="text"
           name="Username"
@@ -32,14 +32,14 @@
           placeholder="Password"
           required
         />
-        <input type="checkbox" />
-        <label for="rememeber me">Remember me</label>
-        <input type="Button" name="Log in" />
+        <input type="checkbox" value="Remember me" />
+        <label for="#">Remember me</label>
+        <input type="submit" value="Log in" />
 
-        <footer>
+        <div>
           <a href="#">Register Now</a>
           <a href="#">Forgotten?</a>
-        </footer>
+        </div>
       </form>
     </main>
   </body>
