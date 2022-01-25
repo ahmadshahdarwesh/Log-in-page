@@ -6,19 +6,17 @@
 }
 body {
   font-family: "Luxurious Roman", cursive;
-  width: 100vh;
-  height: 100vh;
-  transition: 0.2s;
 }
 main {
   border: 2px solid black;
-  margin: 50% auto;
-  width: 80%;
+  margin: 25% auto;
+  width: 60%;
   display: flex;
 }
-.gmaillogo {
-  width: 20rem;
-  margin-left: 2rem;
-}
-div {
+div input {
+  display: block;
+  width: 8rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
 }
