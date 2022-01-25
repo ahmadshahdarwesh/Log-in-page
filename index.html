@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="./css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.0.0-beta3-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Log in Page</title>
   </head>
   <body>
     <main>
       <div class="links">
         <input class="fb" type="button" value="Facebook login" />
+        <i class="fab fa-facebook-f"></i>
         <input class="gm" type="button" value="Google+login" />
+        <i class="fab fa-google-plus-g"></i>
         <input class="tw" type="button" value="Twitter login" />
+        <i class="fab fa-twitter"></i>
       </div>
-      <span class="divider">OR</span>
+      <div class="span">
+        <span class="divider">OR</span>
+      </div>
       <p>Sign In with</p>
-      <form action="">
+      <div class="form">
+        <form action="">
         <input
           type="text"
           name="Username"
@@ -31,14 +38,15 @@
           placeholder="Password"
           required
         />
+      </div>
         <div class="log">
-          <label for="#">Remember me</label>
-          <input type="checkbox" value="Remember me" />
-
+          
+          <input type="checkbox" name="Remember me" />
+          <label for="">Remember me</label>
           <input type="button" value="Log in" />
         </div>
 
-        <div>
+        <div class="aref">
           <a href="#">Register Now</a>
           <a href="#">Forgotten?</a>
         </div>

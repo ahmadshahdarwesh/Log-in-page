@@ -8,34 +8,45 @@ body {
   font-family: "Luxurious Roman", cursive;
   width: 100vw;
   height: 100vh;
-  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main {
   background-color: white;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: right;
   border: 2px solid black;
-  margin: 20% auto;
   width: 60rem;
-  height: 30rem;
+  height: 40rem;
 }
-div input {
-  display: block;
-  margin: 5rem;
-  width: 16rem;
-  height: 4rem;
-  font-size: 2rem;
-  color: white;
-  border: none;
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid black;
+  width: 15rem;
+  height: 35rem;
 }
 .fb {
   background-color: #4267b2;
+  width: 8rem;
+  height: 3rem;
 }
 
 .gm {
   background-color: #db3236;
+  width: 8rem;
+  height: 3rem;
 }
 .tw {
   background-color: #1da1f2;
+  width: 8rem;
+  height: 3rem;
 }
 span {
   position: absolute;
@@ -94,10 +105,10 @@ form input::placeholder {
   font-size: 1.5rem;
 }
 
-.log {
+.log + label {
   display: inline-block;
   position: absolute;
-  top: 16rem;
+  top: 10rem;
   left: 2rem;
   width: 23rem;
   height: 3rem;
