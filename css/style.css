@@ -31,6 +31,8 @@ main {
   border: 2px solid black;
   width: 15rem;
   height: 35rem;
+  margin-top: 2rem;
+  margin-right: 6rem;
 }
 .fb {
   background-color: #4267b2;
