@@ -4,114 +4,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+@import url(https://fontawesome.com/v5.15/icons?d=gallery&p=2);
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Luxurious Roman", cursive;
   width: 100vw;
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
 main {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: right;
   border: 2px solid black;
-  width: 60rem;
-  height: 40rem;
+  width: 80%;
+  height: 50%;
+  flex-direction: column;
 }
 .links {
-  display: flex;
-  justify-content: center;
-  align-items: right;
-  flex-direction: column;
-  justify-content: space-around;
-  border: 2px solid black;
-  width: 15rem;
-  height: 35rem;
-  margin-top: 2rem;
-  margin-right: 6rem;
-}
-.fb {
-  background-color: #4267b2;
-  width: 8rem;
-  height: 3rem;
-}
-
-.gm {
-  background-color: #db3236;
-  width: 8rem;
-  height: 3rem;
-}
-.tw {
-  background-color: #1da1f2;
-  width: 8rem;
-  height: 3rem;
-}
-span {
-  position: absolute;
-  top: 15rem;
-  left: 25rem;
-  font-size: 2rem;
-  opacity: 0.5;
   border: 1px solid black;
-  border-radius: 100%;
-}
-span::after {
-  content: "";
-  position: absolute;
-  margin-top: 1rem;
-  margin-bottom: 0.49rem;
-  height: 10rem;
-  background-color: black;
-  left: 1.5rem;
-  bottom: 2rem;
-  border: 1px solid black;
-}
-span::before {
-  content: "";
-  position: absolute;
-  margin-top: 2.4rem;
-  height: 10rem;
-  background-color: black;
-  left: 1.5rem;
-  border: 1px solid black;
-}
-p {
-  font-weight: bolder;
-  text-align: 3rem;
-  font-size: 2rem;
-  position: absolute;
-  top: 3rem;
-  left: 30rem;
-}
-
-form {
-  position: absolute;
-  top: 5rem;
-  left: 30rem;
-  font-size: 2rem;
-  display: block;
-}
-form input {
-  display: block;
-  width: 23rem;
-  height: 3rem;
-  margin-top: 3rem;
-  border: none;
-  border-bottom: 1px solid black;
-}
-form input::placeholder {
-  font-size: 1.5rem;
-}
-
-.log + label {
-  display: inline-block;
-  position: absolute;
-  top: 10rem;
-  left: 2rem;
-  width: 23rem;
-  height: 3rem;
 }
