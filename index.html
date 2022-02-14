@@ -10,19 +10,24 @@
   </head>
   <body>
     <main>
-      <div class="links">
-        <i class="fab fa-facebook-f"></i>
-        <input class="fb" type="button" value="Facebook login" />
-        <i class="fab fa-google-plus-g"></i>
-        <input class="gm" type="button" value="Google+login" />
-        <i class="fab fa-twitter"></i>
-        <input class="tw" type="button" value="Twitter login" />
-        
+      <section class="links">
+        <div class="fb">
+          <i class="fab fa-facebook-f"><a href="#">Facebook login</a></i>
+        </div>
+        <div class="ggl">
+        <i class="fab fa-google-plus-g"><a href="#">Google+login</a></i>
       </div>
+       <div class="twitter">
+      <i class="fab fa-twitter"><a href="#">Twitter login</a></i>
+    </div>  
+      </section>
+      <section>
       <div class="span">
         <div><span class="divider">OR</span></div>
       </div>
-      <p>Sign In with</p>
+    </section>
+      <section>
+    <div><p>Sign In with</p></div>
       <div class="form">
         <form action="">
         <input
@@ -40,6 +45,8 @@
           required
         />
       </div>
+    </section>
+    </form>
         <div class="log">
           
           <input type="checkbox" name="Remember me" />
@@ -51,7 +58,7 @@
           <a href="#">Register Now</a>
           <a href="#">Forgotten?</a>
         </div>
-      </form>
+      
     </main>
   </body>
 </html>
