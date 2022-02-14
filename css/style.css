@@ -2,6 +2,7 @@
 @import url(./logos.css);
 @import url(./divider.css);
 @import url(./form.css);
+@import url(./bottom.css);
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +22,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 main {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   border: 2px solid black;
   width: 40%;
   height: 40%;
