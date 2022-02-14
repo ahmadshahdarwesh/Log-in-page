@@ -1,6 +1,6 @@
 .links {
   width: 70%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   justify-content: space-around;
