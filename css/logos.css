@@ -78,11 +78,15 @@
   padding: 5px;
   text-decoration: none;
 }
-.twitter a::before {
+/* .twitter a::before {
   content: "";
   width: 3rem;
   height: 4rem;
   border: 1px solid black;
   margin-right: 0.5rem;
   opacity: 0.2;
+} */
+.twitter a {
+  border-left: rgba(82, 74, 74, 0.534) 1px solid;
+  margin-left: 6px;
 }
