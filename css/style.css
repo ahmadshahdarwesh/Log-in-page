@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
 @import url(./logos.css);
 @import url(./divider.css);
+@import url(./form.css);
 * {
   margin: 0;
   padding: 0;
