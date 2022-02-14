@@ -3,17 +3,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  
 }
 .OR span {
   border: 1px solid black;
   border-radius: 50%;
   padding: 5px;
   opacity: 0.2;
+  background-color: white;
+  z-index: -1;
+}
+.OR :nth-child(2){
+  z-index: -1;
+  border: tomato 1px solid;
 }
 .line {
   width: 1px;
-  height: 80%;
+  height: 30vh;
   background-color: gray;
+  position: absolute;
+  left
 }
 /* .OR span::before {
   content: "";
