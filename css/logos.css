@@ -25,14 +25,18 @@
   padding: 5px;
   text-decoration: none;
 }
-.fb a::before {
+.fb a {
+  border-left: rgba(82, 74, 74, 0.534) 1px solid;
+  margin-left: 6px;
+}
+/* .fb a::before {
   content: "";
   width: 3rem;
   height: 4rem;
   border: 1px solid black;
   margin-right: 0.5rem;
   opacity: 0.2;
-}
+} */
 
 .ggl {
   background-color: #db4437;
@@ -52,14 +56,18 @@
   padding: 5px;
   text-decoration: none;
 }
-.ggl a::before {
+.ggl a {
+  border-left: rgba(82, 74, 74, 0.534) 1px solid;
+  margin-left: 6px;
+}
+/* .ggl a::before {
   content: "";
   width: 3rem;
   height: 4rem;
   border: 1px solid black;
   margin-right: 0.5rem;
   opacity: 0.2;
-}
+} */
 .twitter {
   background-color: #1da1f2;
   font-size: 16px;
