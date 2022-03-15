@@ -23,14 +23,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: black;
 }
 main {
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid black;
   width: 40%;
   height: 40%;
+  opacity: 1;
 }
 /* @media only screen and (min-width: 390px) {
   main {
