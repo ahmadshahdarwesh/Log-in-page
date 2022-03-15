@@ -1,5 +1,5 @@
 .form {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,14 @@
   font-size: 24px;
   font-weight: bold;
   border: greenyellow 1px solid;
+
+  margin-bottom: 3rem;
+  margin-right: 9rem;
 }
 .inputs {
   /* border: blue 2px solid; */
   height: 50%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +39,7 @@
 .log {
   border: tomato 1px solid;
   width: 100%;
+  margin-top: 2rem;
   height: 6vh;
 }
 .log > span {
