@@ -29,6 +29,17 @@ main {
   justify-content: center;
   align-items: center;
   border: 2px solid black;
-  width: 40%;
-  height: 40%;
+  width: 60%;
+  height: 60%;
 }
+/* @media only screen and (min-width: 390px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 40%;
+    height: 40%;
+  }
+} */

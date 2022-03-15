@@ -1,11 +1,11 @@
-.form {
+.right-side {
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.form div p {
+.right-side div p {
   font-size: 24px;
   font-weight: bold;
   border: greenyellow 1px solid;
@@ -15,27 +15,36 @@
 }
 .inputs {
   /* border: blue 2px solid; */
-  height: 50%;
-  width: 90%;
-  display: flex;
+  height: 60%;
+  width: 100%;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-}
-.inputs :nth-child(2) {
-  border: 2px solid red;
-  font-size: 20px;
-  border: none;
-  padding: 10px;
-  border-bottom: gray 1px solid;
+  align-items: center; */
 }
 
-.inputs :nth-child(4) {
+form :nth-child(1) {
   border: 2px solid red;
   font-size: 20px;
+  display: inline;
+
   border: none;
   padding: 10px;
-  border-bottom: gray 1px solid;
+  /* border-bottom: gray 1px solid; */
 }
+.details {
+  display: inline;
+  width: 100%;
+}
+form :nth-child(2) {
+  border: 2px solid red;
+  /* display: inline; */
+  font-size: 20px;
+  /* width: 80%; */
+  border: none;
+
+  padding: 10px;
+}
+
 .log {
   border: tomato 1px solid;
   width: 100%;
